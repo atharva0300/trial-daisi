@@ -13,7 +13,7 @@ trial-daisi
 ```
 import pydaisi as pyd
 
-print_hello_app = pyd.Daisi('trial-daisi')
+print_hello_app = pyd.Daisi('atharva0300/trial-daisi')
 greetings = print_hello_app.hello("Human").value
 print(greetings)
 ```
