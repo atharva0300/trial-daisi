@@ -26,7 +26,7 @@ def st_ui():
     # display the greeting in header format
     # just like saying h1 greeting or h2 greeting in html language
 
-    with st.expender("Summary") : 
+    with st.expander("Summary") : 
         # creates an expander named summary
         st.markdown(s.get_summary(name))
         # the the summary
